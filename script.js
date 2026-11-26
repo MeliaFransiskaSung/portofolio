@@ -33,6 +33,16 @@ const PORTFOLIO_PROJECTS = [
     description:
       'Konsep UI/UX aplikasi mobile untuk berbelanja buket bunga, dengan katalog dan promo, pencarian produk, pilihan warna dan ukuran buket, serta alur keranjang dan pemesanan.',
     tools: ['UI/UX Design', 'Mobile App', 'E-Commerce']
+  },
+  {
+    category: 'Hackathon - Digital Queue',
+    title: 'NextQ - Sistem Antrean Digital',
+    client: 'Hackathon Internal UTDI - Tim 3 orang',
+    year: '2026',
+    image: 'assets/nextq-queue-system.png',
+    description:
+      'Proyek hackathon internal UTDI untuk membantu mengatasi antrean di klinik dan rumah sakit melalui sistem digital. Berkontribusi pada Operator Panel dan TV Display, termasuk pemilihan loket, pemanggilan nomor antrean, pemantauan status pasien, serta tampilan nomor panggilan dengan suara otomatis.',
+    tools: ['Hackathon Internal UTDI', 'Operator Panel', 'TV Display', 'Digital Queue']
   }
 ];
 

@@ -795,6 +795,11 @@ button {
   background: #dce8f8;
 }
 
+.project-thumb.nextq-project-thumb {
+  object-fit: contain;
+  background: #dbe8f8;
+}
+
 .project-hover-pill {
   position: absolute;
   left: 50%;
@@ -1219,6 +1224,11 @@ button {
 .modal-media img[src$="flower-bouquet-app.jpg"] {
   object-fit: contain;
   background: #dce8f8;
+}
+
+.modal-media img[src$="nextq-queue-system.png"] {
+  object-fit: contain;
+  background: #dbe8f8;
 }
 
 .modal-media img {
