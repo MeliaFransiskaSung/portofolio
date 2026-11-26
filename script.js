@@ -5,16 +5,6 @@
 
 const PORTFOLIO_PROJECTS = [
   {
-    category: 'Branding Design',
-    title: 'Lunara Botanical Skincare',
-    client: 'Lunara Beauty Indonesia',
-    year: '2026',
-    image: 'assets/project-branding.jpg',
-    description:
-      'Perancangan identitas visual menyeluruh untuk lini skincare botani premium. Mencakup eksplorasi logo monogram lotus minimalis, sistem tipografi elegan, palet warna midnight navy & soft pearl, serta kemasan produk yang bersih dan modern.',
-    tools: ['Adobe Illustrator', 'Adobe Photoshop', 'Brand Guidelines', 'Packaging']
-  },
-  {
     category: 'UI/UX Design',
     title: 'Hamat Mahasiswa',
     client: 'Proyek Aplikasi Keuangan Mahasiswa',
@@ -23,16 +13,6 @@ const PORTFOLIO_PROJECTS = [
     description:
       'Desain splash screen dan antarmuka aplikasi Hamat Mahasiswa untuk membantu mahasiswa mengelola uang saku dengan mudah. Konsep visual menggunakan ilustrasi, palet hijau-biru segar, dan visualisasi keuangan yang sederhana agar aktivitas pencatatan terasa nyaman.',
     tools: ['Figma', 'UI Design', 'Prototype', 'Mobile App']
-  },
-  {
-    category: 'Social Media Design',
-    title: 'Dream Bigger Visual Campaign',
-    client: 'Peak Horizon Apparel',
-    year: '2025',
-    image: 'assets/project-social.jpg',
-    description:
-      'Seri konten kampanye media sosial bertema petualangan dan motivasi untuk Instagram Feed, Carousel, dan Story. Menggabungkan fotografi lanskap atmosferik dengan tipografi tebal berkarakter kuat untuk meningkatkan engagement audiens.',
-    tools: ['Adobe Photoshop', 'After Effects', 'Canva', 'Art Direction']
   },
   {
     category: 'Poster Design',
