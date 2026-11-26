@@ -531,20 +531,25 @@ button {
 .cv-preview {
   display: inline-flex;
   align-items: center;
+  gap: 9px;
   padding: 10px 16px;
   border-radius: 999px;
   font-size: 0.84rem;
   font-weight: 700;
-  background: var(--blue-service);
-  color: var(--navy-dark);
-  border: 1px solid var(--blue-soft);
+  background: var(--royal-accent);
+  color: #ffffff;
   box-shadow: var(--shadow-soft);
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .cv-preview:hover {
   transform: translateY(-2px);
-  background: var(--blue-soft);
+  background: var(--navy-accent);
+}
+
+.cv-preview span {
+  font-size: 1.1rem;
+  line-height: 1;
 }
 
 .about-visual {
