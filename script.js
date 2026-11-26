@@ -33,6 +33,16 @@ const PORTFOLIO_PROJECTS = [
     description:
       'Seri konten kampanye media sosial bertema petualangan dan motivasi untuk Instagram Feed, Carousel, dan Story. Menggabungkan fotografi lanskap atmosferik dengan tipografi tebal berkarakter kuat untuk meningkatkan engagement audiens.',
     tools: ['Adobe Photoshop', 'After Effects', 'Canva', 'Art Direction']
+  },
+  {
+    category: 'Poster Design',
+    title: 'Flash Sale Nasi Goreng Spesial',
+    client: 'Proyek Desain Promosi',
+    year: '2026',
+    image: 'assets/poster-nasi-goreng.png',
+    description:
+      'Poster promosi flash sale Nasi Goreng Spesial seharga Rp15.000. Komposisi merah dan kuning, tipografi tegas, serta ilustrasi bahan makanan dirancang untuk menarik perhatian.',
+    tools: ['Canva', 'Poster Design', 'Visual Promosi']
   }
 ];
 

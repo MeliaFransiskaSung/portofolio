@@ -1,28 +1,27 @@
 /* =========================================================
-   Portfolio Modern Soft-Blue Aesthetic Stylesheet
+   Portfolio warm red-and-yellow poster aesthetic
    Color Palette:
-   - Main Bg: #EBF2FA -> #FFFFFF
-   - Soft Blue Gradient: #A4C2F4, #7BA7E1
-   - Navy Accent: #1B365D
-   - Primary Text / Headings: #0F2544
-   - Service Cards: #DCE8F8
+   - Warm background: #FFF4E8 -> #FFFFFF
+   - Poster red: #C51E24
+   - Poster yellow: #FFD447
+   - Primary text: #351713
    ========================================================= */
 
 :root {
-  --bg-page-top: #7ca3da;
-  --bg-page-bottom: #5b87c7;
-  --card-pale: #ebf2fa;
+  --bg-page-top: #d72a2f;
+  --bg-page-bottom: #a8151c;
+  --card-pale: #fff4e8;
   --card-white: #ffffff;
-  --blue-soft: #a4c2f4;
-  --blue-sky: #7ba7e1;
-  --blue-service: #dce8f8;
-  --navy-accent: #1b365d;
-  --navy-dark: #0f2544;
-  --royal-accent: #2254a8;
-  --text-body: #2c4364;
-  --text-muted: #526b8f;
-  --shadow-card: 0 22px 48px rgba(15, 37, 68, 0.16), 0 4px 14px rgba(15, 37, 68, 0.08);
-  --shadow-soft: 0 10px 25px rgba(15, 37, 68, 0.08);
+  --blue-soft: #ffe39a;
+  --blue-sky: #e23b32;
+  --blue-service: #ffe9bf;
+  --navy-accent: #a8151c;
+  --navy-dark: #351713;
+  --royal-accent: #d71920;
+  --text-body: #5d3028;
+  --text-muted: #87564d;
+  --shadow-card: 0 22px 48px rgba(53, 23, 19, 0.16), 0 4px 14px rgba(53, 23, 19, 0.08);
+  --shadow-soft: 0 10px 25px rgba(53, 23, 19, 0.08);
   --radius-card: 22px;
   --font-sans: 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-display: 'Poppins', 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
@@ -41,7 +40,7 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 84px;
   min-height: 100%;
-  background: linear-gradient(155deg, #8ab0e3 0%, #638ec9 48%, #4d78b8 100%);
+  background: linear-gradient(155deg, #df3931 0%, #c51e24 48%, #9f1119 100%);
   overflow-x: hidden;
 }
 
@@ -50,12 +49,40 @@ body {
   color: var(--navy-dark);
   background:
     radial-gradient(circle at 12% 10%, rgba(255, 255, 255, 0.25) 0%, transparent 40%),
-    radial-gradient(circle at 88% 35%, rgba(164, 194, 244, 0.45) 0%, transparent 45%),
-    linear-gradient(155deg, #8ab0e3 0%, #638ec9 48%, #4d78b8 100%);
+    radial-gradient(circle at 88% 35%, rgba(255, 212, 71, 0.3) 0%, transparent 45%),
+    linear-gradient(155deg, #df3931 0%, #c51e24 48%, #9f1119 100%);
   min-height: 100vh;
   line-height: 1.55;
   overflow-x: hidden;
   padding: 84px 20px 48px;
+}
+
+svg [fill="#7BA7E1"],
+svg [stroke="#7BA7E1"] {
+  fill: #ffd447;
+  stroke: #ffd447;
+}
+
+svg [fill="#1B365D"],
+svg [stroke="#1B365D"],
+svg [fill="#0F2544"],
+svg [stroke="#0F2544"],
+svg [fill="#1D4ED8"],
+svg [stroke="#1D4ED8"] {
+  fill: #a8151c;
+  stroke: #a8151c;
+}
+
+svg [fill="#A4C2F4"],
+svg [stroke="#A4C2F4"] {
+  fill: #ffe39a;
+  stroke: #ffe39a;
+}
+
+svg [fill="#DCE8F8"],
+svg [stroke="#DCE8F8"] {
+  fill: #fff4e8;
+  stroke: #fff4e8;
 }
 
 img {
@@ -182,7 +209,7 @@ button {
   border-radius: var(--radius-card);
   background:
     radial-gradient(circle at 80% 15%, rgba(255, 255, 255, 0.95) 0%, transparent 55%),
-    linear-gradient(135deg, var(--card-pale) 0%, var(--card-white) 52%, #e4eefb 100%);
+    linear-gradient(135deg, var(--card-pale) 0%, var(--card-white) 52%, #ffeac4 100%);
   box-shadow: var(--shadow-card);
   border: 1px solid rgba(255, 255, 255, 0.85);
   padding: 36px 38px;
@@ -315,7 +342,7 @@ button {
   justify-content: space-between;
   background:
     radial-gradient(circle at 35% 30%, #ffffff 0%, rgba(255, 255, 255, 0.35) 55%, transparent 80%),
-    linear-gradient(125deg, #dce8f8 0%, #eff5fc 46%, #c6daf7 100%);
+    linear-gradient(125deg, #fff0d5 0%, #fffaf1 46%, #ffe1a0 100%);
 }
 
 .hero-top {
@@ -343,6 +370,7 @@ button {
   font-size: 0.92rem;
   font-weight: 600;
   color: #ffffff;
+  background: var(--royal-accent);
   padding: 6px 12px;
   border-radius: 999px;
   transition: transform 0.2s ease, opacity 0.2s ease;
@@ -409,7 +437,7 @@ button {
   font-family: var(--font-script);
   font-weight: 700;
   font-size: clamp(2.1rem, 5.4vw, 4.3rem);
-  color: #ffffff;
+  color: #fff3a6;
   line-height: 1;
   transform: rotate(-3deg);
   text-shadow:
@@ -519,6 +547,31 @@ button {
   color: var(--navy-dark);
   transform: rotate(-3deg);
   display: inline-block;
+}
+
+.cv-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 16px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--royal-accent);
+  color: #ffffff;
+  font-size: 0.84rem;
+  font-weight: 700;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.cv-download:hover {
+  transform: translateY(-2px);
+  background: var(--navy-accent);
+}
+
+.cv-download span {
+  font-size: 1.1rem;
+  line-height: 1;
 }
 
 .about-visual {
@@ -641,6 +694,22 @@ button {
   color: #31a8ff;
 }
 
+.badge-code {
+  background: #351713;
+  color: #ffd447;
+  font-size: 0.76rem;
+}
+
+.badge-design {
+  background: linear-gradient(135deg, #e23b32 0%, #a8151c 100%);
+  color: #ffffff;
+}
+
+.badge-cloud {
+  background: #ffe39a;
+  color: #a8151c;
+}
+
 .badge-ai {
   background: #330000;
   color: #ff9a00;
@@ -714,7 +783,7 @@ button {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -742,6 +811,11 @@ button {
   height: 100%;
   object-fit: cover;
   transition: transform 0.35s ease;
+}
+
+.project-thumb.poster-thumb {
+  object-fit: contain;
+  background: #c51e24;
 }
 
 .project-hover-pill {
@@ -1153,11 +1227,16 @@ button {
 }
 
 .modal-media {
-  background: #dbe8f8;
+  background: #ffe9bf;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
+}
+
+.modal-media img[src$="poster-nasi-goreng.png"] {
+  object-fit: contain;
+  background: #c51e24;
 }
 
 .modal-media img {
@@ -1459,4 +1538,13 @@ button {
   .modal-media img {
     max-height: 260px;
   }
+}
+
+svg [fill="#7BA7E1"]:not([stroke]),
+svg [fill="#1B365D"]:not([stroke]),
+svg [fill="#0F2544"]:not([stroke]),
+svg [fill="#1D4ED8"]:not([stroke]),
+svg [fill="#A4C2F4"]:not([stroke]),
+svg [fill="#DCE8F8"]:not([stroke]) {
+  stroke: none;
 }
