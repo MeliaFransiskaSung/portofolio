@@ -521,19 +521,40 @@ button {
   display: inline-block;
 }
 
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.cv-preview,
 .cv-download {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  margin-top: 16px;
   padding: 10px 16px;
   border-radius: 999px;
-  background: var(--royal-accent);
-  color: #ffffff;
   font-size: 0.84rem;
   font-weight: 700;
   box-shadow: var(--shadow-soft);
   transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.cv-preview {
+  background: var(--blue-service);
+  color: var(--navy-dark);
+  border: 1px solid var(--blue-soft);
+}
+
+.cv-preview:hover {
+  transform: translateY(-2px);
+  background: var(--blue-soft);
+}
+
+.cv-download {
+  background: var(--royal-accent);
+  color: #ffffff;
 }
 
 .cv-download:hover {
