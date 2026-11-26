@@ -790,6 +790,11 @@ button {
   background: #dce8f8;
 }
 
+.project-thumb.flower-app-thumb {
+  object-fit: contain;
+  background: #dce8f8;
+}
+
 .project-hover-pill {
   position: absolute;
   left: 50%;
@@ -1207,6 +1212,11 @@ button {
 }
 
 .modal-media img[src$="poster-nasi-goreng.png"] {
+  object-fit: contain;
+  background: #dce8f8;
+}
+
+.modal-media img[src$="flower-bouquet-app.jpg"] {
   object-fit: contain;
   background: #dce8f8;
 }

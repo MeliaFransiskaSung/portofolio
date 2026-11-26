@@ -23,6 +23,16 @@ const PORTFOLIO_PROJECTS = [
     description:
       'Poster promosi flash sale Nasi Goreng Spesial seharga Rp15.000. Komposisi merah dan kuning, tipografi tegas, serta ilustrasi bahan makanan dirancang untuk menarik perhatian.',
     tools: ['Canva', 'Poster Design', 'Visual Promosi']
+  },
+  {
+    category: 'UI/UX Design',
+    title: 'Pilih Bunga - Aplikasi Buket Bunga',
+    client: 'Konsep Desain Aplikasi Mobile',
+    year: '2026',
+    image: 'assets/flower-bouquet-app.jpg',
+    description:
+      'Konsep UI/UX aplikasi mobile untuk berbelanja buket bunga, dengan katalog dan promo, pencarian produk, pilihan warna dan ukuran buket, serta alur keranjang dan pemesanan.',
+    tools: ['UI/UX Design', 'Mobile App', 'E-Commerce']
   }
 ];
 
